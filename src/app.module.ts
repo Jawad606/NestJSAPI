@@ -12,7 +12,7 @@ import { PostModule } from './post/post.module';
     ConfigModule.forRoot(),
     PostModule,
     AuthModule,
-    // PrismaModule,
+    PrismaModule,
     UserModule
   ],
   controllers: [AppController],
