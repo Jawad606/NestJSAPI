@@ -115,6 +115,7 @@ export class AuthService {
 
 
   async refreshToken(user: User){
+    console.log(user)
     return {
       user: user,
       token: this.getJwtToken({id: user.id})
